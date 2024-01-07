@@ -48,7 +48,73 @@ header {
 }
 
 /* main */
+/* My failures of previous year */
+.failures {
+    display: flex;
+    margin: 140px 0;
+    margin-left: 220px;
+    margin-right: 300px;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.failures-content>h3 {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.failures-content>p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.failures-content-point p {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.failures-content-point i {
+    color: green;
+}
+
+/* My Plans */
+.plans>h3 {
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plan-unit {
+    display: flex;
+    margin: 0 230px;
+    margin-bottom: 130px;
+    gap: 90px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.plan-item-h3 {
+    color: #151414;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.plan-item-p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
 
 /* footer */
 footer {
@@ -74,6 +140,10 @@ footer {
     font-weight: 400;
     line-height: 26px;
     margin: 20px 0;
+}
+
+.social-links a {
+    margin-right: 15px;
 }
 
 .footer-col-subscribe h4 {
