@@ -118,18 +118,18 @@ header {
 
 /* call me */
 .call {
-    background-image: url(/images/watch.png), url(/images/gradient2.png);
+    background-image: url(/images/watch.png);
     background-repeat: no-repeat;
     background-position: center;
     text-align: left;
     margin: 130px 230px;
     padding: 60px 600px 60px 60px;
     border-radius: 8px;
-    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 50%);
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 50%); */
 }
 
 .call h2 {
-
+margin-bottom: 24px;
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
